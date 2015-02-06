@@ -1,0 +1,36 @@
+INSTRUCTIONS:
+
+Welcome to the game of STAX! It's an action puzzle where you try to clear out rows of tokens until at least one column is empty.
+
+Requirements:
+This game was programmed using [and thus requires the installation of]...
+Python 2.5.4 (to run the game)
+wxPython (for this version of Python)
+Pygame (for this version of Python)
+Psyco (for this version of Python; optional but implemented to speed up code execution)
+
+Objective:
+After setting the preferred difficulty settings, clear out rows of five (5) of the same color tokens in the grid by rotating the columns up and down to shift pieces to match the tokens. If you clear out an entire column, you complete a round. This goes on until you lose or wish to quit.
+
+Controls:
+
+At the Title screen:
+UP/DOWN - Select your option
+SPACE/ENTER - Choose selected option
+F1 - Toggle Fullscreen
+Escape - Exit
+
+At the Settings screen:
+UP/DOWN - Select your option
+LEFT/RIGHT - Set your preference
+SPACE/ENTER - Begin game
+F1 - Toggle Fullscreen
+Escape - Back to title screen
+
+At the Game screen:
+UP/DOWN - Rotate column's tokens
+LEFT/RIGHT - Select your column
+SPACE/ENTER - Place a new token at the bottom of your selected column
+F1 - Toggle Fullscreen
+Escape - Pause
+1/2/3/4/5 - Choose corresponding Column
